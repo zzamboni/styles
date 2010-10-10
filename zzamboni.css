@@ -73,7 +73,6 @@ body {
     font-size: 16px;
 }
 a {
-    color: {{ accent }};
     text-decoration: none;
 }
 a:hover {
@@ -97,7 +96,6 @@ a.reverse:hover {
     width: 960px;
 }
 .header {
-    background: {{ accent }};
     color: #fff;
     overflow: visible;
     z-index: 10;
@@ -136,7 +134,6 @@ h2 {
 }
 
 h2 a {
-    color: {{ accent }};
     text-decoration: none;
 }
 
@@ -179,7 +176,6 @@ h4 {
 
 #posts {
     float: left;
-    width: {% if sidebar %}680px{% else %}910px{% endif %};
 }
 
 
@@ -206,14 +202,9 @@ h4 {
     font-weight: bold;
 }
 
-.date a:hover {
-    color: {{ accent }};
-}
-
 .post {
     float: right;
     position: relative;
-    width: {% if sidebar %}500px{% else %}730px{% endif %};
 }
 
 .post p, .post div {
@@ -252,10 +243,6 @@ h4 {
 
 .date-comments {
     padding-left: 10px;
-}
-
-.infobar .posted,.infobar .comments-name {
-    color: {{ accent }};
 }
 
 .infobar a.timestamp,.infobar .comments-quantity {
@@ -386,8 +373,6 @@ p.private-post {
 }
 
 .pagination a {
-    background: {{ accent }};
-    border: solid 1px {{ accent }};
     color: #fff;
     display: inline-block;
     display: -moz-inline-box;
@@ -423,7 +408,6 @@ p.private-post {
 }
 
 h5 {
-    color: {{ accent }};
     font-size: 11px;
     font-weight: bold;
     padding-bottom: 3px;
@@ -444,7 +428,6 @@ h5 {
 }
 
 .tag li,#more-tags-listing li,.taglist li {
-    color: {{ accent }};
     font-size: 10px;
     list-style: none;
     margin: 0;
@@ -468,7 +451,6 @@ h5 {
 }
 
 a.more-tags {
-    color: {{ accent }} !important;
     font-size: 10px !important;
     text-decoration: none;
 }

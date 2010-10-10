@@ -7,6 +7,42 @@
 
 <title>{{ page.title }}</title>
 <link rel="stylesheet" type="text/css" href="http://zzamboni.org/styles/zzamboni.css" />
+<style type="text/css">
+a {
+    color: {{ accent }};
+}
+.header {
+    background: {{ accent }};
+}
+h2 a {
+    color: {{ accent }};
+}
+.date a:hover {
+    color: {{ accent }};
+}
+.infobar .posted,.infobar .comments-name {
+    color: {{ accent }};
+}
+.pagination a {
+    background: {{ accent }};
+    border: solid 1px {{ accent }};
+}
+h5 {
+    color: {{ accent }};
+}
+.tag li,#more-tags-listing li,.taglist li {
+    color: {{ accent }};
+}
+a.more-tags {
+    color: {{ accent }} !important;
+}
+#posts {
+    width: {% if sidebar %}680px{% else %}910px{% endif %};
+}
+.post {
+    width: {% if sidebar %}500px{% else %}730px{% endif %};
+}
+</style>
 </head>
 
 <body>    
