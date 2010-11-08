@@ -581,7 +581,7 @@ a.fancy_button span, button.fancy_button span {
   border-style: solid; 
   border-color: #ccc #444 #111 #444; 
   border-color: rgba(255,255,255,0.7) rgba(0,0,0,0.5) rgba(0,0,0,0.7) rgba(0,0,0,0.5); 
-  font-size: 12px;
+  font-size: 16px;
   color:#D09797;
   padding: 0.48em 2em; 
   cursor: pointer; 
@@ -618,5 +618,5 @@ a.fancy_button span:active, button.fancy_button span:active {
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorStr='#80969696', EndColorStr='#59000000'); 
   -webkit-background-clip: padding-box;
 }
-.fancy_button strong{display:block;color:#fff;font-size:20px;font-family: 'gill sans', 'gill sans mt', 'gill sans mt pro', 'century gothic', corbel, sans-serif;}
+.fancy_button strong{display:block;color:#fff;font-size:21px;font-family: 'gill sans', 'gill sans mt', 'gill sans mt pro', 'century gothic', corbel, sans-serif;}
 .fancy_button em{font-weight:bold;font-style:normal;color:#FD7E7E;}
