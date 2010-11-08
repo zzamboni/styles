@@ -566,6 +566,7 @@ a.fancy_button, button.fancy_button {
   outline: 0; 
   border-width: 1px; 
   border-style: solid;
+  margin: 10px; 
   width: auto;
   overflow: visible;
   border-color: transparent transparent #666 transparent; 
