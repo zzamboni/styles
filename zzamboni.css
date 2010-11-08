@@ -577,7 +577,6 @@ a.fancy_button, button.fancy_button {
 a.fancy_button span, button.fancy_button span { 
   display: block; 
   float: left;
-  letter-spacing: -1px; 
   border-width: 1px; 
   border-style: solid; 
   border-color: #ccc #444 #111 #444; 
